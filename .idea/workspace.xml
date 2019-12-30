@@ -30,7 +30,7 @@
   <component name="ProjectId" id="1VisTo5DDoxaDfGRDXhUlJ9rzQU" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577747259745</updated>
       <workItem from="1577747261923" duration="248000" />
+      <workItem from="1577748790712" duration="499000" />
     </task>
     <servers />
   </component>
