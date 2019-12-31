@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background: url("../img/hero-bg.jpg") no-repeat center center / cover;
+  max-width: 1600px;
+  height: 800px;
+
+  &__titel {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    font-family: 'Indie Flower', cursive;
+    text-transform: capitalize;
+    font-size: 70px;
+    color: darkgreen;
+    @media screen and (max-width: 768px) {
+      font-size: 40px;
+    }
+  }
+
+  &__batton {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    &__btn {
+      color: #fff;
+      border-radius: 50%;
+      font-family: 'Ma Shan Zheng', cursive;
+      font-size: 25px;
+      letter-spacing: 4px;
+      text-decoration: none;
+      user-select: none;
+      background: darkgreen;
+      padding: 12px 45px 12px 45px;
+      outline: none;
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+        padding: 10px 35px 10px 35px;
+      }
+
+      &:hover {
+        background: #076d29;
+      }
+
+      &:active {
+        background: #980f00;
+      }
+    }
+  }
+
+  .menu {
+    position: fixed;
+    top: 220px;
+    left: 30px;
+    width: 40px;
+    @media screen and (max-width: 768px) {
+      left: 2vw;
+      width: 30px;
+    }
+
+    .menuIcon {
+      padding-bottom: 20px;
+      fill: #646b6b; //#ccc
+      transition: all 0.5s;
+
+      &__desc {
+        position: relative;
+        float: left;
+        top: -32px;
+        width: 80px;
+        opacity: 0;
+        font-size: 11px;
+        transition: all 0.5s;
+
+        &:hover {
+          opacity: 1;
+          font-weight: 600;
+          transform: translate(50px, 0px);
+        }
+      }
+
+      &:hover {
+        fill: #075d6d;
+        transform: scale(1.2, 1.2) translate(10px, 0px);
+      }
+    }
+
+    .menuIcon:hover .menuIcon__desc {
+      opacity: 1;
+      font-weight: 600;
+      transform: translate(50px, 0px);
+      @media screen and (max-width: 768px) {
+        transform: translate(36px, 5px);
+      }
+    }
+  }
+}

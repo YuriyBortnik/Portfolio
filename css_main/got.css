@@ -1,2 +1,4 @@
-p {
-  color: rebeccapurple; }
+.days {
+  background: url("../img/hero-bg.jpg") no-repeat top center/cover;
+  max-width: 1600px;
+  height: 800px; }
