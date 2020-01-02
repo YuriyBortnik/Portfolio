@@ -47,38 +47,181 @@ body {
         background: #076d29; }
       .header__batton__btn:active {
         background: #980f00; }
-  .header .menu {
-    position: fixed;
-    top: 220px;
-    left: 30px;
-    width: 40px; }
-    @media screen and (max-width: 768px) {
-      .header .menu {
-        left: 2vw;
-        width: 30px; } }
-    .header .menu .menuIcon {
-      padding-bottom: 20px;
-      fill: #646b6b;
+
+.menu {
+  position: fixed;
+  top: 220px;
+  left: 30px;
+  width: 40px;
+  z-index: 30; }
+  @media screen and (max-width: 768px) {
+    .menu {
+      left: 2vw;
+      width: 30px; } }
+  .menu .menuIcon {
+    padding-bottom: 20px;
+    fill: #646b6b;
+    transition: all 0.5s; }
+    .menu .menuIcon__desc {
+      position: relative;
+      float: left;
+      top: -32px;
+      width: 80px;
+      opacity: 0;
+      font-size: 11px;
       transition: all 0.5s; }
-      .header .menu .menuIcon__desc {
-        position: relative;
-        float: left;
-        top: -32px;
-        width: 80px;
-        opacity: 0;
-        font-size: 11px;
-        transition: all 0.5s; }
-        .header .menu .menuIcon__desc:hover {
-          opacity: 1;
-          font-weight: 600;
-          transform: translate(50px, 0px); }
-      .header .menu .menuIcon:hover {
-        fill: #075d6d;
-        transform: scale(1.2, 1.2) translate(10px, 0px); }
-    .header .menu .menuIcon:hover .menuIcon__desc {
-      opacity: 1;
-      font-weight: 600;
-      transform: translate(50px, 0px); }
-      @media screen and (max-width: 768px) {
-        .header .menu .menuIcon:hover .menuIcon__desc {
-          transform: translate(36px, 5px); } }
+      .menu .menuIcon__desc:hover {
+        opacity: 1;
+        font-weight: 600;
+        transform: translate(50px, 0px); }
+    .menu .menuIcon:hover {
+      fill: #075d6d;
+      transform: scale(1.2, 1.2) translate(10px, 0px); }
+  .menu .menuIcon:hover .menuIcon__desc {
+    opacity: 1;
+    font-weight: 600;
+    transform: translate(50px, 0px); }
+    @media screen and (max-width: 768px) {
+      .menu .menuIcon:hover .menuIcon__desc {
+        transform: translate(36px, 5px); } }
+  .menu a {
+    text-decoration: none;
+    color: darkgreen; }
+    .menu a:hover {
+      color: #075d6d; }
+    .menu a:active {
+      color: darkred; }
+
+.road {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #353535;
+  background-color: #f3f5f8;
+  max-width: 100%;
+  height: 420px; }
+  .road__titel {
+    margin-top: 0;
+    font-family: 'Long Cang', cursive;
+    text-transform: uppercase;
+    font-size: 45px; }
+    @media screen and (max-width: 768px) {
+      .road__titel {
+        font-size: 30px; } }
+  .road__text {
+    margin: 0 auto;
+    padding: 35px 25px;
+    max-width: 500px;
+    line-height: 25px;
+    letter-spacing: 2px; }
+
+.titleCenter {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 1px;
+  background: url(../img/h1-bg.png) no-repeat center bottom;
+  padding-bottom: 30px;
+  font-weight: bold; }
+
+#parallaxCenter {
+  max-width: 100%; }
+  #parallaxCenter .wrapper {
+    height: 942px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px; }
+    #parallaxCenter .wrapper__section {
+      position: relative;
+      height: 1000px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 0 5px #000; }
+    #parallaxCenter .wrapper .parallax::after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transform: translateZ(-1px) scale(1.5);
+      background-size: 100%;
+      z-index: -1; }
+    #parallaxCenter .wrapper .static {
+      max-width: 100%;
+      height: 550px;
+      background: url("../img/githab.jpg") no-repeat center center/cover; }
+      #parallaxCenter .wrapper .static__git__hab {
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        font-size: 26px;
+        font-family: 'Dancing Script', cursive;
+        letter-spacing: 4px;
+        color: #fff; }
+      #parallaxCenter .wrapper .static__git__click {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 64px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 20px;
+        padding: 9px 20px 9px 20px;
+        letter-spacing: 1px;
+        color: #fff;
+        text-decoration: none; }
+        #parallaxCenter .wrapper .static__git__click:hover {
+          background: darkgreen; }
+        #parallaxCenter .wrapper .static__git__click:active {
+          background: darkred; }
+    #parallaxCenter .wrapper .static1 {
+      background-color: black;
+      max-width: 100%;
+      height: 350px;
+      color: white; }
+    #parallaxCenter .wrapper .bg1::after {
+      background: url(../img/keyboard-bg.jpg) no-repeat center center/cover;
+      max-width: 100%;
+      height: 942px; }
+    #parallaxCenter .wrapper .bg2::after {
+      background: url(../img/keyboard-bg.jpg) no-repeat center center/cover;
+      max-width: 100%;
+      height: 942px; }
+    #parallaxCenter .wrapper .bg3::after {
+      background: url(../img/keyboard-bg.jpg) top center/cover;
+      max-width: 100%;
+      height: 942px; }
+
+.footer {
+  background: #034;
+  max-width: 100%;
+  height: 202px;
+  color: #fff; }
+  .footer__titel {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 25px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    letter-spacing: 5px; }
+  .footer .aries {
+    margin: auto;
+    width: 50px;
+    height: 40px;
+    fill: #fff; }
+  .footer .icon {
+    display: flex;
+    justify-content: center; }
+    .footer .icon__menu {
+      margin: 30px 10px;
+      text-decoration: none;
+      font-family: 'Indie Flower', cursive;
+      fill: #fff; }
+      .footer .icon__menu svg {
+        width: 30px;
+        height: 30px; }

@@ -1,0 +1,70 @@
+#parallaxCenter {
+  max-width: 100%; }
+  #parallaxCenter .wrapper {
+    height: 942px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px; }
+    #parallaxCenter .wrapper__section {
+      position: relative;
+      height: 1000px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 0 5px #000; }
+    #parallaxCenter .wrapper .parallax::after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transform: translateZ(-1px) scale(1.5);
+      background-size: 100%;
+      z-index: -1; }
+    #parallaxCenter .wrapper .static {
+      max-width: 100%;
+      height: 550px;
+      background: url("../img/githab.jpg") no-repeat center center/cover; }
+      #parallaxCenter .wrapper .static__git__hab {
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        font-size: 26px;
+        font-family: 'Dancing Script', cursive;
+        letter-spacing: 4px;
+        color: #fff; }
+      #parallaxCenter .wrapper .static__git__click {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 64px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 20px;
+        padding: 9px 20px 9px 20px;
+        letter-spacing: 1px;
+        color: #fff;
+        text-decoration: none; }
+        #parallaxCenter .wrapper .static__git__click:hover {
+          background: darkgreen; }
+        #parallaxCenter .wrapper .static__git__click:active {
+          background: darkred; }
+    #parallaxCenter .wrapper .static1 {
+      background-color: black;
+      max-width: 100%;
+      height: 350px;
+      color: white; }
+    #parallaxCenter .wrapper .bg1::after {
+      background: url(../img/keyboard-bg.jpg) no-repeat center center/cover;
+      max-width: 100%;
+      height: 942px; }
+    #parallaxCenter .wrapper .bg2::after {
+      background: url(../img/keyboard-bg.jpg) no-repeat center center/cover;
+      max-width: 100%;
+      height: 942px; }
+    #parallaxCenter .wrapper .bg3::after {
+      background: url(../img/keyboard-bg.jpg) top center/cover;
+      max-width: 100%;
+      height: 942px; }
