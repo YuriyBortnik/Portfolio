@@ -1,3 +1,6 @@
+body, html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0;
   padding: 0;
@@ -47,38 +50,188 @@ body {
         background: #076d29; }
       .header__batton__btn:active {
         background: #980f00; }
-  .header .menu {
-    position: fixed;
-    top: 220px;
-    left: 30px;
-    width: 40px; }
-    @media screen and (max-width: 768px) {
-      .header .menu {
-        left: 2vw;
-        width: 30px; } }
-    .header .menu .menuIcon {
-      padding-bottom: 20px;
-      fill: #646b6b;
+
+.menu {
+  position: fixed;
+  top: 220px;
+  left: 30px;
+  width: 40px;
+  z-index: 30; }
+  @media screen and (max-width: 768px) {
+    .menu {
+      left: 2vw;
+      width: 30px; } }
+  .menu .menuIcon {
+    padding-bottom: 20px;
+    fill: #646b6b;
+    transition: all 0.5s; }
+    .menu .menuIcon__desc {
+      position: relative;
+      float: left;
+      top: -32px;
+      width: 80px;
+      opacity: 0;
+      font-size: 11px;
       transition: all 0.5s; }
-      .header .menu .menuIcon__desc {
-        position: relative;
-        float: left;
-        top: -32px;
-        width: 80px;
-        opacity: 0;
-        font-size: 11px;
-        transition: all 0.5s; }
-        .header .menu .menuIcon__desc:hover {
-          opacity: 1;
-          font-weight: 600;
-          transform: translate(50px, 0px); }
-      .header .menu .menuIcon:hover {
-        fill: #075d6d;
-        transform: scale(1.2, 1.2) translate(10px, 0px); }
-    .header .menu .menuIcon:hover .menuIcon__desc {
-      opacity: 1;
-      font-weight: 600;
-      transform: translate(50px, 0px); }
-      @media screen and (max-width: 768px) {
-        .header .menu .menuIcon:hover .menuIcon__desc {
-          transform: translate(36px, 5px); } }
+      .menu .menuIcon__desc:hover {
+        opacity: 1;
+        font-weight: 600;
+        transform: translate(50px, 0px); }
+    .menu .menuIcon:hover {
+      fill: #075d6d;
+      transform: scale(1.2, 1.2) translate(10px, 0px); }
+  .menu .menuIcon:hover .menuIcon__desc {
+    opacity: 1;
+    font-weight: 600;
+    transform: translate(50px, 0px); }
+    @media screen and (max-width: 768px) {
+      .menu .menuIcon:hover .menuIcon__desc {
+        transform: translate(36px, 5px); } }
+  .menu a {
+    text-decoration: none;
+    color: darkgreen; }
+    .menu a:hover {
+      color: #075d6d; }
+    .menu a:active {
+      color: darkred; }
+
+.road {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #353535;
+  background-color: #f3f5f8;
+  max-width: 100%;
+  height: 420px; }
+  .road__titel {
+    margin-top: 0;
+    font-family: 'Long Cang', cursive;
+    text-transform: uppercase;
+    font-size: 45px; }
+    @media screen and (max-width: 768px) {
+      .road__titel {
+        font-size: 30px; } }
+  .road__text {
+    margin: 0 auto;
+    padding: 35px 25px;
+    max-width: 500px;
+    line-height: 25px;
+    letter-spacing: 2px; }
+
+.titleCenter {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 1px;
+  background: url(../img/h1-bg.png) no-repeat center bottom;
+  padding-bottom: 30px;
+  font-weight: bold; }
+
+.fon {
+  background: url("../img/keyboard-bg.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100%; }
+  .fon .grid {
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(30, 2vw); }
+    .fon .grid__item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      color: #fff; }
+    .fon .grid__item1 {
+      background: url("../img/ja.jpg") no-repeat center center/cover;
+      border: solid;
+      grid-column-start: 10;
+      grid-column-end: 13;
+      grid-row-start: 5;
+      grid-row-end: 15;
+      opacity: 0.5; }
+    .fon .grid__item2 {
+      font-family: 'Indie Flower', cursive;
+      font-size: 40px;
+      text-align: center;
+      text-transform: capitalize;
+      grid-column-start: 10;
+      grid-column-end: 13;
+      grid-row-start: 2;
+      grid-row-end: 4; }
+    .fon .grid__item3 {
+      font-family: 'Indie Flower', cursive;
+      grid-column-start: 18;
+      grid-column-end: 14;
+      grid-row-start: 17;
+      grid-row-end: 5; }
+    .fon .grid__item4 {
+      font-family: 'Indie Flower', cursive;
+      grid-column-start: 5;
+      grid-column-end: 9;
+      grid-row-start: 13;
+      grid-row-end: 5; }
+    .fon .grid .experience__titel {
+      font-size: 22px;
+      text-align: center;
+      font-weight: bold; }
+    .fon .grid .experience__list__text {
+      font-size: 18px; }
+
+.git {
+  max-width: 100%;
+  height: 550px;
+  background: url("../img/githab.jpg") no-repeat center center/cover; }
+  .git__hab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 208px; }
+  .git__titel {
+    font-size: 26px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 4px;
+    color: #fff; }
+  .git__click {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 9px 20px 9px 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none; }
+    .git__click:hover {
+      background: darkgreen; }
+    .git__click:active {
+      background: darkred; }
+
+.footer {
+  background: #034;
+  max-width: 100%;
+  height: 202px;
+  color: #fff; }
+  .footer__titel {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 25px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    letter-spacing: 5px; }
+  .footer .aries {
+    margin: auto;
+    width: 50px;
+    height: 40px;
+    fill: #fff; }
+  .footer .icon {
+    display: flex;
+    justify-content: center; }
+    .footer .icon__menu {
+      margin: 30px 10px;
+      text-decoration: none;
+      font-family: 'Indie Flower', cursive;
+      fill: #fff; }
+      .footer .icon__menu svg {
+        width: 30px;
+        height: 30px; }

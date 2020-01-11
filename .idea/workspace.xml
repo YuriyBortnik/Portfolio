@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7305ca88-0cce-47a8-9cbd-04252564d1d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/header.scss" afterDir="false" />
+    <list default="true" id="4dab158a-5830-496d-81f5-4fd24f82a250" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scss/gitHab.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/got.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/got.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_main/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_main/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_main/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_main/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_main/parallax.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/parallax.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_main/road.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/road.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/css.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/css.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/github-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/github-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/html.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/html.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sass.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/got.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/parallax.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/parallax.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,9 +32,24 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -45,7 +69,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../maket_one (finish)" />
+    <property name="last_opened_file_path" value="E:/maket_one (finish)" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,7 +77,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,7 +96,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7305ca88-0cce-47a8-9cbd-04252564d1d1" name="Default Changelist" comment="" />
+      <changelist id="4dab158a-5830-496d-81f5-4fd24f82a250" name="Default Changelist" comment="" />
       <created>1577747259745</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -80,12 +104,36 @@
       <workItem from="1577747261923" duration="248000" />
       <workItem from="1577748790712" duration="499000" />
       <workItem from="1577795000716" duration="10413000" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
       <workItem from="1577841011816" duration="278000" />
       <workItem from="1577892095469" duration="22468000" />
       <workItem from="1577974040651" duration="12094000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1577841011816" duration="278000" />
+      <workItem from="1577892095469" duration="22468000" />
+      <workItem from="1577974040651" duration="11605000" />
+      <workItem from="1578396823711" duration="2379000" />
+      <workItem from="1578496231156" duration="15279000" />
+      <workItem from="1578593686674" duration="3000" />
+      <workItem from="1578593768840" duration="14000" />
+      <workItem from="1578594922502" duration="4000" />
+      <workItem from="1578595144570" duration="69000" />
+      <workItem from="1578595506372" duration="3000" />
+      <workItem from="1578596307736" duration="3000" />
+      <workItem from="1578596376877" duration="3000" />
+      <workItem from="1578596462455" duration="15000" />
+      <workItem from="1578596885883" duration="375000" />
+      <workItem from="1578600488906" duration="4000" />
+      <workItem from="1578601994968" duration="270000" />
+      <workItem from="1578668522066" duration="9000" />
+      <workItem from="1578669671650" duration="161000" />
+      <workItem from="1578670126410" duration="11000" />
+      <workItem from="1578670150944" duration="2616000" />
+      <workItem from="1578752407510" duration="674000" />
+>>>>>>> develop
     </task>
     <servers />
   </component>

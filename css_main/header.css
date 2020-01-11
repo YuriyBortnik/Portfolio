@@ -38,38 +38,3 @@
         background: #076d29; }
       .header__batton__btn:active {
         background: #980f00; }
-  .header .menu {
-    position: fixed;
-    top: 220px;
-    left: 30px;
-    width: 40px; }
-    @media screen and (max-width: 768px) {
-      .header .menu {
-        left: 2vw;
-        width: 30px; } }
-    .header .menu .menuIcon {
-      padding-bottom: 20px;
-      fill: #646b6b;
-      transition: all 0.5s; }
-      .header .menu .menuIcon__desc {
-        position: relative;
-        float: left;
-        top: -32px;
-        width: 80px;
-        opacity: 0;
-        font-size: 11px;
-        transition: all 0.5s; }
-        .header .menu .menuIcon__desc:hover {
-          opacity: 1;
-          font-weight: 600;
-          transform: translate(50px, 0px); }
-      .header .menu .menuIcon:hover {
-        fill: #075d6d;
-        transform: scale(1.2, 1.2) translate(10px, 0px); }
-    .header .menu .menuIcon:hover .menuIcon__desc {
-      opacity: 1;
-      font-weight: 600;
-      transform: translate(50px, 0px); }
-      @media screen and (max-width: 768px) {
-        .header .menu .menuIcon:hover .menuIcon__desc {
-          transform: translate(36px, 5px); } }
