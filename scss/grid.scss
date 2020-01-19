@@ -8,7 +8,7 @@
     padding-top: 50px;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(37, 2vw);
-    //grid-gap: 11px;
+
 
     &__item {
       font-family: 'Indie Flower', cursive;
@@ -16,9 +16,6 @@
       width: 100%;
       height: 100%;
       color: #fff;
-      //background-size: cover;
-      //background-repeat: no-repeat;
-      //background-position: 50% 50%;
     }
 
     &__item1 {
@@ -88,6 +85,12 @@
         font-size: 22px;
         text-align: center;
         font-weight: bold;
+      }
+
+      &__link {
+        margin: 0;
+        font-size: 18px;
+        color: #fff;
       }
 
       &__list {

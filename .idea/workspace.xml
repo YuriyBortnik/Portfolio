@@ -3,19 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4dab158a-5830-496d-81f5-4fd24f82a250" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/gitHab.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/gitHab.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_main/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/road.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/road.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/gitHab.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/gitHab.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/parallax.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
