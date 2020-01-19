@@ -193,6 +193,10 @@ body {
       font-size: 22px;
       text-align: center;
       font-weight: bold; }
+    .fon .grid .experience__link {
+      margin: 0;
+      font-size: 18px;
+      color: #fff; }
     .fon .grid .experience__list__text {
       font-size: 18px;
       letter-spacing: 1px; }
