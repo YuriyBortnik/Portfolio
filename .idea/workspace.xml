@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dab158a-5830-496d-81f5-4fd24f82a250" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/gitHab.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_main/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_main/gitHab.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/gitHab.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_main/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css_main/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/grid.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_main/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_main/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/parallax.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/parallax.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_main/road.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/road.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css_main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/css.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/css.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/github-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/github-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/html.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/html.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/sass.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/parallax.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/parallax.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/gitHab.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/gitHab.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/parallax.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/maket_one (finish)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -133,6 +129,12 @@
       <workItem from="1578670126410" duration="11000" />
       <workItem from="1578670150944" duration="2616000" />
       <workItem from="1578752407510" duration="674000" />
+<<<<<<< HEAD
+>>>>>>> develop
+=======
+      <workItem from="1579009619750" duration="2605000" />
+      <workItem from="1579440130976" duration="764000" />
+      <workItem from="1579448301542" duration="5721000" />
 >>>>>>> develop
     </task>
     <servers />
