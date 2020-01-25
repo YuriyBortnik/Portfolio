@@ -7,6 +7,26 @@
     padding-top: 50px;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(37, 2vw); }
+    @media screen and (max-width: 1200px) {
+      .fon .grid {
+        grid-template-rows: repeat(45, 2vw); } }
+    @media screen and (max-width: 1150px) {
+      .fon .grid {
+        grid-template-rows: repeat(54, 2vw); } }
+    @media screen and (max-width: 960px) {
+      .fon .grid {
+        grid-template-rows: repeat(59, 2vw); } }
+    @media screen and (max-width: 768px) {
+      .fon .grid {
+        grid-template-rows: repeat(80, 2vw); } }
+    @media screen and (max-width: 480px) {
+      .fon .grid {
+        padding-top: 30px;
+        grid-template-rows: repeat(120, 2vw); } }
+    @media screen and (max-width: 375px) {
+      .fon .grid {
+        padding-top: 30px;
+        grid-template-rows: repeat(134, 2vw); } }
     .fon .grid__item {
       font-family: 'Indie Flower', cursive;
       position: relative;
@@ -29,44 +49,179 @@
       grid-column-end: 13;
       grid-row-start: 2;
       grid-row-end: 4; }
+      @media screen and (max-width: 1150px) {
+        .fon .grid__item2 {
+          font-size: 30px;
+          grid-column-start: 9;
+          grid-column-end: 14;
+          grid-row-start: 1;
+          grid-row-end: 2; } }
+      @media screen and (max-width: 480px) {
+        .fon .grid__item2 {
+          font-size: 18px; } }
     .fon .grid__item3 {
       grid-column-start: 18;
       grid-column-end: 14;
       grid-row-start: 17;
       grid-row-end: 5; }
+      @media screen and (max-width: 768px) {
+        .fon .grid__item3 {
+          grid-column-start: 20;
+          grid-column-end: 13;
+          grid-row-start: 40;
+          grid-row-end: 4; } }
     .fon .grid__item4 {
       grid-column-start: 5;
       grid-column-end: 9;
       grid-row-start: 13;
       grid-row-end: 5; }
+      @media screen and (max-width: 768px) {
+        .fon .grid__item4 {
+          grid-column-start: 2;
+          grid-column-end: 10;
+          grid-row-start: 27;
+          grid-row-end: 4; } }
     .fon .grid__item5 {
       grid-column-start: 8;
       grid-column-end: 15;
       grid-row-start: 23;
       grid-row-end: 16; }
+      @media screen and (max-width: 1150px) {
+        .fon .grid__item5 {
+          grid-column-start: 5;
+          grid-column-end: 13;
+          grid-row-start: 32;
+          grid-row-end: 19; } }
+      @media screen and (max-width: 960px) {
+        .fon .grid__item5 {
+          grid-column-start: 6;
+          grid-column-end: 18;
+          grid-row-start: 26;
+          grid-row-end: 37; } }
+      @media screen and (max-width: 768px) {
+        .fon .grid__item5 {
+          grid-column-start: 3;
+          grid-column-end: 19;
+          grid-row-start: 37;
+          grid-row-end: 25; } }
+      @media screen and (max-width: 480px) {
+        .fon .grid__item5 {
+          grid-row-start: 59;
+          grid-row-end: 38; } }
     .fon .grid__item6 {
       grid-column-start: 3;
       grid-column-end: 9;
       grid-row-start: 30;
       grid-row-end: 24; }
+      @media screen and (max-width: 1200px) {
+        .fon .grid__item6 {
+          grid-row-end: 27; } }
+      @media screen and (max-width: 1150px) {
+        .fon .grid__item6 {
+          grid-column-start: 5;
+          grid-column-end: 12;
+          grid-row-start: 33;
+          grid-row-end: 33; } }
+      @media screen and (max-width: 960px) {
+        .fon .grid__item6 {
+          grid-column-start: 3;
+          grid-column-end: 9;
+          grid-row-start: 37;
+          grid-row-end: 37; } }
+      @media screen and (max-width: 768px) {
+        .fon .grid__item6 {
+          grid-column-end: 19;
+          grid-row-start: 39;
+          grid-row-end: 48; } }
+      @media screen and (max-width: 480px) {
+        .fon .grid__item6 {
+          grid-row-start: 59;
+          grid-row-end: 73; } }
+      @media screen and (max-width: 375px) {
+        .fon .grid__item6 {
+          grid-row-start: 62;
+          grid-row-end: 78; } }
     .fon .grid__item7 {
       grid-column-start: 11;
       grid-column-end: 20;
       grid-row-start: 30;
       grid-row-end: 24; }
+      @media screen and (max-width: 1200px) {
+        .fon .grid__item7 {
+          grid-column-start: 13;
+          grid-row-start: 39;
+          grid-row-end: 27; } }
+      @media screen and (max-width: 960px) {
+        .fon .grid__item7 {
+          grid-column-start: 11;
+          grid-row-start: 60;
+          grid-row-end: 37; } }
+      @media screen and (max-width: 768px) {
+        .fon .grid__item7 {
+          grid-column-start: 3;
+          grid-column-end: 19;
+          grid-row-start: 78;
+          grid-row-end: 59; } }
+      @media screen and (max-width: 480px) {
+        .fon .grid__item7 {
+          grid-row-start: 118;
+          grid-row-end: 86; } }
+      @media screen and (max-width: 375px) {
+        .fon .grid__item7 {
+          grid-row-start: 123;
+          grid-row-end: 95; } }
     .fon .grid__item8 {
       grid-column-start: 3;
       grid-column-end: 10;
       grid-row-start: 38;
       grid-row-end: 31; }
+      @media screen and (max-width: 1200px) {
+        .fon .grid__item8 {
+          grid-row-end: 36; } }
+      @media screen and (max-width: 1150px) {
+        .fon .grid__item8 {
+          grid-column-start: 6;
+          grid-column-end: 12;
+          grid-row-start: 46;
+          grid-row-end: 45; } }
+      @media screen and (max-width: 960px) {
+        .fon .grid__item8 {
+          grid-column-start: 4;
+          grid-column-end: 10;
+          grid-row-start: 58;
+          grid-row-end: 49; } }
+      @media screen and (max-width: 768px) {
+        .fon .grid__item8 {
+          grid-column-start: 5;
+          grid-column-end: 16;
+          grid-row-start: 58;
+          grid-row-end: 49; } }
+      @media screen and (max-width: 480px) {
+        .fon .grid__item8 {
+          grid-column-end: 20;
+          grid-row-start: 86;
+          grid-row-end: 73; } }
+      @media screen and (max-width: 375px) {
+        .fon .grid__item8 {
+          grid-row-start: 91;
+          grid-row-end: 81; } }
     .fon .grid .experience__titel {
       font-size: 22px;
       text-align: center;
       font-weight: bold; }
+      @media screen and (max-width: 480px) {
+        .fon .grid .experience__titel {
+          font-size: 14px; } }
     .fon .grid .experience__link {
       margin: 0;
       font-size: 18px;
       color: #fff; }
+      @media screen and (max-width: 480px) {
+        .fon .grid .experience__link {
+          font-size: 14px; } }
     .fon .grid .experience__list__text {
       font-size: 18px;
       letter-spacing: 1px; }
+      @media screen and (max-width: 480px) {
+        .fon .grid .experience__list__text {
+          font-size: 12px; } }
