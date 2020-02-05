@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dab158a-5830-496d-81f5-4fd24f82a250" name="Default Changelist" comment="">
+    <list default="true" id="fba080c9-c922-40a9-bab0-3d0415755bfd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css_main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css_main/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/header.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/New_maket_js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -83,7 +82,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4dab158a-5830-496d-81f5-4fd24f82a250" name="Default Changelist" comment="" />
+      <changelist id="fba080c9-c922-40a9-bab0-3d0415755bfd" name="Default Changelist" comment="" />
       <created>1577747259745</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -118,6 +117,8 @@
       <workItem from="1579905283492" duration="1375000" />
       <workItem from="1579929929873" duration="7652000" />
       <workItem from="1580019200695" duration="3108000" />
+      <workItem from="1580029240461" duration="698000" />
+      <workItem from="1580921981442" duration="45000" />
     </task>
     <servers />
   </component>
